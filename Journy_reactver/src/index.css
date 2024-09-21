@@ -5,3 +5,8 @@ body {
     font-family: "Montserrat";
 }
 
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+

@@ -1,0 +1,25 @@
+.profile-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin-left: 50px;
+}
+
+.profile-name{
+    grid-column: 1/ 2;
+    grid-row: 1 / 2;
+    margin-top: 50px;
+    border-bottom: solid rgb(147, 141, 141) 1px;
+    margin-right: 80px;
+}
+
+.profile-posts-container{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-right: 80px;
+}
+
+.profile-about-card{
+    grid-column: 2 /3;
+    grid-row: 1 / 3 ;
+}

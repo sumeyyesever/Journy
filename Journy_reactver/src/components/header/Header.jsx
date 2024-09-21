@@ -1,18 +1,29 @@
 import React from 'react'
 import "./header.css"
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <div className='header-container'>
-        <div className='nav-logo'>
-            <h1>Journy</h1>
-        </div>
-        <div class="nav-buttons">
-            <button class="write-button" onclick="window.location.href='create-post.html';">Write</button>
-            <button class="login-button" onclick="window.location.href='login.html';">Login</button>
-            <button class="signup-button" onclick="window.location.href='register.html';">Sign-Up</button>
-            <img class="nav-img" src="/profile.jpg" onclick="window.location.href='home.html';" />
-        </div>
+      <div className='nav-logo'>
+        <Link to="/" className='link'>
+          <h1>Journy</h1>
+        </Link>
+      </div>
+      <div class="nav-buttons">
+        <Link to="/create-post">
+          <button class="write-button">Write</button>
+        </Link>
+        <Link to="/login">
+          <button class="login-button">Login</button>
+        </Link>
+        <Link to="/register">
+          <button class="signup-button">Sign-Up</button>
+        </Link>
+        <Link to="/profile"> 
+          <img class="nav-img" src="/profile.jpg" />
+        </Link>
+      </div>
     </div>
   )
 }

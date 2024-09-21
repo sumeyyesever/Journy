@@ -1,0 +1,39 @@
+.register-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid black 1px;
+}
+.register-input{
+    height: 30px;
+    width: 250px;
+    outline: none;
+    padding-left: 3px;
+    font-size: 15px;
+}
+.register-submit{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.register-title{
+    font-family: "Montserrat", sans-serif;
+}

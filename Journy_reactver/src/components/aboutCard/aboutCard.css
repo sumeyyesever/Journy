@@ -1,0 +1,32 @@
+.aboutCard-container{
+    border-left: solid rgb(147, 141, 141) 1px;
+    padding-left: 30px;
+    color: rgb(112, 114, 114);
+    margin-top: 40px;
+}
+
+.aboutCard-img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.aboutCard-name{
+    font-weight: 600;
+    color: black;
+}
+
+.aboutCard-par{
+    font-size: 14px;
+}
+
+.aboutCard-follow,
+.aboutCard-msg{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    margin-right: 4px;
+    cursor: pointer;
+}
