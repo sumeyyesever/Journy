@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 import "./createPost.css"
 
 export default function CreatePost() {
@@ -14,6 +15,8 @@ export default function CreatePost() {
             <input class="createPost-button" type="button" value="Publish"/>
         </form>
       </div>
+      <hr />
+      <Footer />
     </div>
   )
 }

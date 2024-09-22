@@ -23,3 +23,25 @@
     grid-column: 2 /3;
     grid-row: 1 / 3 ;
 }
+
+@media (max-width: 835px) {
+    .profile-container {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-about-card{
+        order: -1;
+    }
+
+    .profile-name{
+        display: none;
+    }
+
+    .profile-posts-container{
+        margin-right: 0;
+        border-top: solid rgb(147, 141, 141) 1px;
+        padding-top: 50px;
+    }
+  }

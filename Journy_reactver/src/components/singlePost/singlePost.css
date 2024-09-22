@@ -35,3 +35,10 @@
 .singlePost-img{
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .singlePost-img {
+      width: 150px;
+      margin-left: 10px;
+    }
+  }

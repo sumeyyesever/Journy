@@ -37,3 +37,10 @@
 .register-title{
     font-family: "Montserrat", sans-serif;
 }
+
+
+@media (max-width: 768px) {
+    .register-form {
+      width: 400px;
+    }
+  }

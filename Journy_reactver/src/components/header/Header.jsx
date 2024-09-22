@@ -1,8 +1,9 @@
 import React from 'react'
 import "./header.css"
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Header() {
+  const location = useLocation();
   return (
     <div className='header-container'>
       <div className='nav-logo'>
@@ -11,9 +12,11 @@ export default function Header() {
         </Link>
       </div>
       <div class="nav-buttons">
+      {location.pathname !== "/" &&
         <Link to="/create-post">
           <button class="write-button">Write</button>
         </Link>
+      }
         <Link to="/login">
           <button class="login-button">Login</button>
         </Link>

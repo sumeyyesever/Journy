@@ -32,3 +32,13 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .createPost-container{
+        margin: 0;
+    }
+    .createPost-form{
+        width: 380px;
+        margin: 30px 0;
+    }
+}

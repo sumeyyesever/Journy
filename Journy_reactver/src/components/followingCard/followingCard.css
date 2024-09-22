@@ -22,3 +22,9 @@
 .followingCard-name{
     font-size: 13px;
 }
+
+@media (max-width: 835px) {
+    .followingCard-container{
+        display: none;
+    }
+}

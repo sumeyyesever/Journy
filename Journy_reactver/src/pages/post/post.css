@@ -32,3 +32,13 @@
     font-size: 17px;
     letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+    .main-post-container{
+        margin: 30px 0;
+    }
+
+    .main-post-content{
+        font-size: 14px;
+    }
+}

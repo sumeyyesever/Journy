@@ -41,3 +41,19 @@
     object-fit: contain;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .nav-img {
+      display: none;
+    }
+
+    .login-button, 
+    .signup-button{
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .write-button{
+        display: none;
+    }
+  }

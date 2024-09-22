@@ -30,3 +30,19 @@
     margin-right: 4px;
     cursor: pointer;
 }
+
+@media (max-width: 835px) {
+    .aboutCard-container{
+        border-left: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aboutCard-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}

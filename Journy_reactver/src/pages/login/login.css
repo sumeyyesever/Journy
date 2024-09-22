@@ -40,3 +40,9 @@
 .login-title{
     font-family: "Montserrat", sans-serif;
 }
+
+@media (max-width: 768px) {
+    .login-form {
+      width: 400px;
+    }
+  }
